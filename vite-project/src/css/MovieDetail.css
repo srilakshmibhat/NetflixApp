@@ -1,0 +1,68 @@
+.movie-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    color: white;
+    background-color: #181818;
+    min-height: 100vh;
+    position: relative;
+}
+
+.back-btn {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: #444;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.back-btn:hover {
+    background: #666;
+}
+
+.movie-detail img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.movie-detail-content {
+    max-width: 500px;
+}
+
+.movie-detail h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.movie-detail p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.watch-btn {
+    background: #e50914;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    transition: background 0.3s ease-in-out;
+}
+
+.watch-btn:hover {
+    background: #b20710;
+}

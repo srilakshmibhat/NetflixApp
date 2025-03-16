@@ -15,7 +15,7 @@ function Home() {
         const popularMovies = await getPopularMovies();
         setMovies(popularMovies);
       } catch (err) {
-        console.log(err);
+        console.error(err);
         setError("Failed to load movies...");
       } finally {
         setLoading(false);

@@ -69,6 +69,16 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.moreInfo-btn {
+  background: #e50914;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
 .favorite-btn.active {
   color: #ff4757;
 }
